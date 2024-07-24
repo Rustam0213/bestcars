@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bestcars/static/css/main.44852ebf.css",
+    "main.js": "/bestcars/static/js/main.a423890f.js",
+    "static/js/453.ce2f2bef.chunk.js": "/bestcars/static/js/453.ce2f2bef.chunk.js",
+    "static/media/bckg.jpg": "/bestcars/static/media/bckg.a2b4f4db65ac8a9cdbce.jpg",
+    "static/media/slick.svg": "/bestcars/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/bestcars/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/bestcars/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/bestcars/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/bestcars/index.html",
+    "main.44852ebf.css.map": "/bestcars/static/css/main.44852ebf.css.map",
+    "main.a423890f.js.map": "/bestcars/static/js/main.a423890f.js.map",
+    "453.ce2f2bef.chunk.js.map": "/bestcars/static/js/453.ce2f2bef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44852ebf.css",
+    "static/js/main.a423890f.js"
+  ]
+}

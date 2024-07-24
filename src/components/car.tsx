@@ -7,7 +7,7 @@ import "./style.css"
 const cars = [
       {
             "id": 1,
-            "img": "/filestore/audirs6.png",
+            "img": "filestore/audirs6.png",
             "name": "Audi RS6 C7",
             "year": 2016,
             "hp": 560,
@@ -19,7 +19,7 @@ const cars = [
       },
       {
             "id": 2,
-            "img": "/filestore/bugattichiron.png",
+            "img": "filestore/bugattichiron.png",
             "name": "Bugatti Chiron",
             "year": 2017,
             "hp": 1500,
@@ -31,7 +31,7 @@ const cars = [
       },
       {
             "id": 3,
-            "img": "/filestore/lamborghinihuracan.png",
+            "img": "filestore/lamborghinihuracan.png",
             "name": "Lamborghini Huracan",
             "year": 2014,
             "hp": 610,
@@ -43,7 +43,7 @@ const cars = [
       },
       {
             "id": 4,
-            "img": "/filestore/m3competition.png",
+            "img": "filestore/m3competition.png",
             "name": "BMW M3 Competition",
             "year": 2021,
             "hp": 503,
@@ -55,7 +55,7 @@ const cars = [
       },
       {
             "id": 5,
-            "img": "/filestore/mbc63.png",
+            "img": "filestore/mbc63.png",
             "name": "Mercedes-Benz C63",
             "year": 2019,
             "hp": 469,
@@ -67,7 +67,7 @@ const cars = [
       },
       {
             "id": 6,
-            "img": "/filestore/porschegt3.png",
+            "img": "filestore/porschegt3.png",
             "name": "Porsche 911 GT3",
             "year": 2018,
             "hp": 500,
@@ -79,7 +79,7 @@ const cars = [
       },
       {
             "id": 7,
-            "img": "/filestore/toyotasupra.png",
+            "img": "filestore/toyotasupra.png",
             "name": "Toyota Supra 1993",
             "year": 1993,
             "hp": 320,

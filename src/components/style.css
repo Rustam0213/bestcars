@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-image: url("../../public/filestore/bckg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.car-slider {
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-image-container {
+    flex: 1;
+    max-width: 50%;
+}
+
+.car-image-container:active {
+    cursor: grabbing;
+}
+
+.car-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.car-image {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: none;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin: auto;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+h1 {
+    text-shadow: 0 0 10px rgb(0, 30, 255);
+    color: #ffffff;
+}
+
+.slick-dots li button:before {
+    opacity: 0.5;
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: #001086;
+}
+
+.slick-arrow.slick-next {
+    margin-right: 40px;
+}
+
+.slick-arrow.slick-prev {
+    z-index: 100;
+    margin-left: 40px;
+}
+
+.description {
+    box-shadow: inset 0 0 7px black;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #5b5b5b;
+    height: 300px;
+    max-width: 400px;
+    animation: typing 2s steps(10, end), blink-caret 0.2s step-end infinite;
+    color: #ffffff;
+    box-sizing: border-box; /* Включаем паддинги и бордеры в размер блока */
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.characteristics p {
+    color: #ffffff;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 19px;
+}
+
+
+@media (max-width: 768px) {
+
+    .slider-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car-image-container {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .car-info {
+        order: 2;
+        padding-left: 0;
+        text-align: center;
+        max-width: 100%;
+    }
+    .description {
+        font-size: 13px;
+        order: 3;
+        padding: 5px;
+        height: 200px;
+        width: 100%;
+        overflow-y: auto; /* вертикальная прокрутка */
+        overflow-x: hidden; /* скрываем горизонтальную прокрутку */
+    }
+
+    .description::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .description::-webkit-scrollbar-thumb {
+        background: #888; 
+        border-radius: 10px;
+    }
+
+    .description::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+
+    .car-image {
+        padding-top: 0;
+        padding-bottom: 0;
+        max-width: 100%;
+    }
+
+    .slick-dots {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .slick-arrow.slick-next,
+    .slick-arrow.slick-prev {
+        display: none;
+    }
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e7e7e7;
+}
